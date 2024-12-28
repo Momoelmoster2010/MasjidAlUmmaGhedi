@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Masjid Al Umma - Moschea a Ghedi, Italia">
+    <meta name="keywords" content="Masjid Al Umma, Moschea, Islam, Orari Preghiera, Ghedi, Italia">
+    <title>Masjid Al Umma</title>
+    <style>
+        /* Reset dei margini e padding per tutti gli elementi */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            line-height: 1.6;
+            margin: 0;
+        }
+
+        /* Intestazione */
+        header {
+            background-color: #1e7b6c;
+            color: #fff;
+            padding: 40px 0;
+            text-align: center;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        header h1 {
+            font-size: 3rem;
+            margin-bottom: 10px;
+            font-family: 'Georgia', serif;
+            color: #fff;
+        }
+
+        header p {
+            font-size: 1.5rem;
+            font-weight: 300;
+            color: #fff;
+        }
+
+        /* Sezione orari delle preghiere */
+        .prayer-times {
+            padding: 30px;
+            background-color: #fff;
+            text-align: center;
+            margin: 20px auto;
+            width: 80%;
+            max-width: 1000px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+        }
+
+        .prayer-times h2 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+            font-family: 'Georgia', serif;
+            color: #1e7b6c;
+        }
+
+        .iframe-container {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .widget {
+            width: 100%;
+            height: 500px;
+            border: none;
+        }
+
+        /* Sezione contatti */
+        .contact {
+            padding: 30px;
+            background-color: #f1f1f1;
+            text-align: center;
+            margin: 20px auto;
+            width: 80%;
+            max-width: 600px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+        }
+
+        .contact h2 {
+            font-size: 2.5rem;
+            margin-bottom: 15px;
+            color: #2d3a3a;
+        }
+
+        .contact-info p {
+            font-size: 1.2rem;
+            margin-bottom: 10px;
+            font-weight: 500;
+        }
+
+        .contact-info a {
+            color: #1e7b6c;
+            text-decoration: none;
+            font-weight: 700;
+        }
+
+        .contact-info a:hover {
+            color: #4e9f94;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+            margin-top: 40px;
+        }
+
+        footer p {
+            font-size: 1rem;
+        }
+
+        /* Animazione di entrata */
+        @keyframes fadeIn {
+            0% {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+
+            100% {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        header, .prayer-times, .contact {
+            animation: fadeIn 1s ease-in-out;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <!-- Intestazione -->
+    <header>
+        <div class="header-container">
+            <h1>Benvenuti alla Masjid Al Umma</h1>
+            <p>La nostra moschea a Ghedi, Italia</p>
+        </div>
+    </header>
+
+    <!-- Sezione Orari delle Preghiere -->
+    <section class="prayer-times">
+        <h2>Orari delle Preghiere</h2>
+        <div class="iframe-container">
+            <iframe src="https://mawaqit.net/it/w/moschea-al-umma-ghedi-25016-italy-1?showOnly5PrayerTimes=0"
+                frameborder="0" scrolling="no" class="widget"></iframe>
+        </div>
+    </section>
+
+    <!-- Sezione Informazioni di Contatto -->
+    <section class="contact">
+        <h2>Contattaci</h2>
+        <div class="contact-info">
+            <p><strong>Telefono:</strong> +39 331 333 8566</p>
+            <p><strong>Email:</strong> <a href="mailto:masjidalumma@gmail.com">masjidalumma@gmail.com</a></p>
+            <p>Visita anche la nostra pagina Facebook per rimanere aggiornato su eventi e novità.</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Masjid Al Umma. Tutti i diritti riservati.</p>
+        <p><a href="https://www.masjidalumma.it/privacy-policy" target="_blank" style="color: #fff;">Privacy Policy</a></p>
+    </footer>
+
+    <script>
+        // Funzionalità JavaScript di base
+        console.log("Benvenuti alla Masjid Al Umma!");
+    </script>
+</body>
+
+</html>
